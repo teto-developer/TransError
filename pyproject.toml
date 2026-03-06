@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "error-translator"
+name = "TransError"
 version = "0.1.0"
 description = "Detect, translate, and get AI-powered advice for error messages across Python, JavaScript, Java, and more"
 readme = "README.md"
