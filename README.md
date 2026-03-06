@@ -10,16 +10,16 @@ Python / JavaScript / TypeScript / Java / 汎用テキストに対応。
 
 ```bash
 # 基本（翻訳のみ）
-pip install error-translator
+pip install TransError
 
 # Anthropic Claude でAIアドバイスを使う場合
-pip install "error-translator[anthropic]"
+pip install "TransError[anthropic]"
 
 # OpenAI GPT でAIアドバイスを使う場合
-pip install "error-translator[openai]"
+pip install "TransError[openai]"
 
 # 両方
-pip install "error-translator[all]"
+pip install "TransError[all]"
 ```
 
 ---
@@ -27,7 +27,7 @@ pip install "error-translator[all]"
 ## クイックスタート
 
 ```python
-from error_translator import ErrorTranslator
+from TransError import ErrorTranslator
 
 # 日本語に翻訳 + AIアドバイス（環境変数から自動検出）
 et = ErrorTranslator(target_lang="ja")
